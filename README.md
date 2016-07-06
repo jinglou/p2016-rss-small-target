@@ -1,2 +1,3 @@
-# rss-small-target
-rss-small-target
+Project page
+-----------
+http://www.loujing.com/rss-small-target
