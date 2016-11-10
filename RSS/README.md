@@ -23,6 +23,6 @@ NOTES:
 3. For each frame, the resulting MAT file includes a structure array "Targets" with the following fields:
 	a) .RegionNums	the number of detected small targets
 	b) .Regions		a structure array with the regional properties of all detected small targets
-		i)  .ClusterNo	the Cluster No. of each target
+		 i) .ClusterNo	the Cluster No. of each target
 		ii) .Props		the regional properties of each target, including Boundary, Pixel List, and Bounding Box
 </pre>
