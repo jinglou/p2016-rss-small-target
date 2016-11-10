@@ -1,3 +1,4 @@
+<pre>
 ------------------------------------------------------------------------------------------------------
 This code implements the RSS small target detection model in the following paper:
 
@@ -24,3 +25,4 @@ NOTES:
 	b) .Regions		a structure array with the regional properties of all detected small targets
 		i)  .ClusterNo	the Cluster No. of each target
 		ii) .Props		the regional properties of each target, including Boundary, Pixel List, and Bounding Box
+</pre>
