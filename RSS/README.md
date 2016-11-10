@@ -16,9 +16,9 @@ NOTES:
 	>>DEMO
 
 2. There are three resulting folders in each dataset folder:
-	a) <StaMaps>		stability maps
-	b) <SalMaps>		saliency maps
-	c) <RSS>			detection results
+	a) [StaMaps]		stability maps
+	b) [SalMaps]		saliency maps
+	c) [RSS]			detection results
 
 3. For each frame, the resulting MAT file includes a structure array "Targets" with the following fields:
 	a) .RegionNums	the number of detected small targets
