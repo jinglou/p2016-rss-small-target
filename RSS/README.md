@@ -2,9 +2,8 @@
 ------------------------------------------------------------------------------------------------------
 This code implements the RSS small target detection model in the following paper:
 
-Jing Lou, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional 
-Stability and Saliency in a Color Image," Multimedia Tools and Applications, pp. 1-18, 2016.
-doi:10.1007/s11042-016-4025-7
+Jing Lou, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency 
+in a Color Image," Multimedia Tools and Applications, pp. 1-18, 2016. doi:10.1007/s11042-016-4025-7
 
 Project page: http://www.loujing.com/rss-small-target/
 
