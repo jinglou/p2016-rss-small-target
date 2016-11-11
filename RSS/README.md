@@ -23,8 +23,8 @@ NOTES:
 	b) [SalMaps]		saliency maps
 	c) [RSS]			detection results, including .mat and .png
 
-3. For each input color image, the resulting MAT file includes a structure array "Targets" with 
-the following fields:
+3. For each input color image, the resulting MAT file includes a structure array "Targets" with the 
+following fields:
 	a) RegionNums		the number of detected small targets
 	b) Regions			a structure array with the regional properties of all detected small targets
 		 i) ClusterNo	the Cluster No. of each target
