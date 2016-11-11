@@ -167,7 +167,7 @@ for imgno = 1:length(imgs)
 % 	subplot(221),imshow(rgb),title(['# ',int2str(imgno)]);
 % 	subplot(222),imshow(bin);
 % 	subplot(223),imshow(sRGB);
-	pause(0.01);
+% 	pause(0.01);
 	% ~[Optional]
 	
 	clear MSERs;
