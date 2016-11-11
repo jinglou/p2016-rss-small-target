@@ -19,9 +19,9 @@ NOTES:
 	>>DEMO
 
 2. There are three resulting folders in each dataset folder:
-	a) <StaMaps>		stability maps
-	b) <SalMaps>		saliency maps
-	c) <RSS>			detection results, including .mat and .png
+	a) [StaMaps]		stability maps
+	b) [SalMaps]		saliency maps
+	c) [RSS]			detection results, including .mat and .png
 
 3. For each input color image, the resulting MAT file includes a structure array "Targets" with the 
 following fields:
