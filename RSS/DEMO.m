@@ -3,7 +3,7 @@
 % 
 % Jing Lou, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," 
 % Multimedia Tools and Applications, pp. 1-18, 2016. doi:10.1007/s11042-016-4025-7
-%
+% 
 % Project page: http://www.loujing.com/rss-small-target/
 % 
 % Copyright (C) 2016 Jing Lou
@@ -38,12 +38,12 @@ if exist([data,'\RSS'], 'dir') ~= 7			% detected small targets (.mat and .png)
 end
 
 imgs = dir([data,'\Image\*.png']);
-for k = 1:length(imgs)
-	fprintf('  %3d/%3d : ', k, length(imgs));
+for imgno = 1:length(imgs)
+	fprintf('  %3d/%3d : ', imgno, length(imgs));
 	
 	tic;
 	
-	rgb = imread([data,'\Image\',int2str(k),'.png']);
+	rgb = imread([data,'\Image\',int2str(imgno),'.png']);
 	if ndims(rgb) == 2		% for gray-scale image
 		rgb = repmat(rgb, [1 1 3]);
 	end
@@ -52,26 +52,27 @@ for k = 1:length(imgs)
 	% (1) extract stability regions, and generate stability map
 	StabilityRegions = RSS_Stability(gray, param);
 	StabilityMap = rgn2bw(StabilityRegions,size(gray,1),size(gray,2));
-	imwrite(StabilityMap, [data,'\StaMaps\',int2str(k),'_Sta.png']);
+	imwrite(StabilityMap, [data,'\StaMaps\',int2str(imgno),'_Sta.png']);
 	
 	% (2) detect saliency, and generate saliency map
 	SaliencyMap = RSS_Saliency(rgb, param);
-	imwrite(SaliencyMap, [data,'\SalMaps\',int2str(k),'_Sal.png']);
+	imwrite(SaliencyMap, [data,'\SalMaps\',int2str(imgno),'_Sal.png']);
 	
 	% (3) obtain the final detection result by combining stability map and saliency map
 	Targets = RSS(StabilityRegions, StabilityMap, SaliencyMap);
-	save([data,'\RSS\',int2str(k),'_RSS.mat'],'Targets');
+	save([data,'\RSS\',int2str(imgno),'_RSS.mat'],'Targets');
 	TargetsMap = rgn2bw(Targets,size(gray,1),size(gray,2));
-	imwrite(TargetsMap,[data,'\RSS\',int2str(k),'_RSS.png']);
+	imwrite(TargetsMap,[data,'\RSS\',int2str(imgno),'_RSS.png']);
 	
 	toc;
 	
-	% [Optional] show RSS detection result in real time
+	%  [Optional] show RSS detection result in real time
 % 	figure(1);
-% 	subplot(221),imshow(rgb);
+% 	subplot(221),imshow(rgb),title(['# ',int2str(imgno)]);
 % 	subplot(222),imshow(labeltarget(rgb,Targets));
 % 	subplot(223),imshow(StabilityMap);
 % 	subplot(224),imshow(SaliencyMap);
 % 	pause(0.01);
+	% ~[Optional]
 
 end
