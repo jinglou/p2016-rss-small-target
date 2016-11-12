@@ -24,7 +24,7 @@ the following subfolders:
 2. This benchmark database provides the pixel-wise ground truth for each input image. In [GT], each MAT file 
 contains four properties of the ground truth target: Area, Boundary, Bounding Box, and Pixel List.
 
-3. You can use the MATLAB script "Evaluation.m" to evaluate your detection results.  Please read the help text
+3. You can use the MATLAB script "Evaluation.m" to evaluate your detection results. Please read the help text
 in the script for more details.
 
 </pre>
