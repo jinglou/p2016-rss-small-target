@@ -15,8 +15,8 @@ at the user's risk.
 ------------------------------------------------------------------------------------------------------
 
 NOTES:
-1. This benchmark database contains three datasets (totally 1,093 color images). Each dataset folder 
-includes the following subfolders:
+1. This benchmark database contains three datasets (totally 1,093 color images). Each dataset folder includes 
+the following subfolders:
 	a) [Image]			input color images
 	b) [GT]				ground truth
 	c) [MSER], [RSS]	two example models for reference
