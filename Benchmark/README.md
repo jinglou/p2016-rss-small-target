@@ -1,4 +1,4 @@
-# Benchmark
+## Benchmark
 
 This benchmark database is used for small target detection in the following paper: 
 
@@ -11,7 +11,7 @@ Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 The usage of this data and code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
 
-## Notes
+### Notes
 
  1. This benchmark database contains three datasets (totally 1,093 color images). Each dataset folder includes the following subfolders:
 	 1. `Image`  input color image
