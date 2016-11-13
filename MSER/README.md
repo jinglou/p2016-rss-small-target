@@ -13,6 +13,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 ## Notes
 
  1. The algorithm utilizes the VLFeat open source library:
+
 	Vedaldi A, Fulkerson B (2008) VLFeat: An open and portable library of computer vision algorithms, version 0.9.19. [http://www.vlfeat.org/](http://www.vlfeat.org/)
 
  2. The example usage of the code is demonstrated in 
