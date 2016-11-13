@@ -7,4 +7,4 @@
 
 Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
 
-Copyright (C) 2016 [Jing Lou (楼竞)](http://www.loujing.com)
+Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
