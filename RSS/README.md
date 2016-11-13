@@ -1,4 +1,4 @@
-# RSS Notebooks
+# RSS
 
 This code implements the RSS small target detection model in the following paper:
 
