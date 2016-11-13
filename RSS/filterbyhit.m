@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function HitRgnsFiltered = filterbyhit(Candidate,HitRgnsMask)
-%FILTERBYHIT removes the regions from CANDIDATE regions if their HITRNGSMASK equal to 0.
+%FILTERBYHIT removes the region from CANDIDATE regions if its HITRNGSMASK equals to 0.
 
 tmpThreshNo = 1;
 for m = 1:size(Candidate,2)
