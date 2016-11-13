@@ -17,9 +17,9 @@
 % 	This code use the "regionprops" function of Image Processing Toolbox to automatically calculate it from the binary image.
 % 
 % 	3. This code generates the following evaluation results:
-% 		a) In each dataset folder, the resulting "PRF_XXXX.mat" file contains the values of Precision, Recall and F-measure 
+% 		a) In each dataset folder, the resulting file "PRF_XXXX.mat" contains the values of Precision, Recall and F-measure 
 %		   for each image.
-% 		b) In the root directory, the resulting "Stat.mat" file includes the average values of Precision, Recall and F-measure 
+% 		b) In the root directory, the resulting file "Stat.mat" includes the average values of Precision, Recall and F-measure 
 %		   for each model. 
 %
 % 
@@ -30,13 +30,11 @@
 
 clc; clear; close all;
 
-
 %% Models
 Models = {'MSER','RSS'};				% *** ADD YOUR MODEL HERE ***
 
 %% Datasets
 Datasets = {'Data1','Data2','Data3'};
-
 
 %% Compute Precision, Recall and F-Measure for each model
 for datano = 1:length(Datasets)
@@ -137,4 +135,3 @@ end
 % save
 save('Stat.mat', 'Stat');		% mat
 % xlswrite('Stat.xlsx', Stat);	% [Optional] xlsx
-
