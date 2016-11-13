@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function StabilityRegions = RSS_Stability(gray, param)
-%RSS_SALIENCY extracts stable regions STABILITYREGIONS from a gray-scale
+%RSS_STABILITY extracts the stable regions STABILITYREGIONS from a gray-scale
 % image GRAY by using the parameter PARAM. 
 
 StabilityRegions = [];
@@ -18,7 +18,7 @@ StabilityRegions = [];
 
 % sequential segmentation
 ThreshNo = 1;
-ClusterNo = 1;	% cluster NO.
+ClusterNo = 1;	% cluster ID
 for thresh = param.delta/2 : param.delta : 256-param.delta/2
 	binary = im2bw(gray,thresh/255);
 	binary = imcomplement(binary);
@@ -114,7 +114,7 @@ if exist('Candidate','var') == 1
 		% Algorithm 2
 		SimMeasure = similarity(FillRate,AspectRatio);
 		PoStaRgns = [];				% potential candidate regions
-		PoStaRgns.RegionNums = 0;	% the number of potential candidate regions
+		PoStaRgns.RegionNums = 0;	% the number of all potential candidate regions
 		for k = 1:size(SimMeasure,2)
 			if SimMeasure(1,k)>=1 && SimMeasure(4,k)>=1
 				for p = 1:size(HitRgnsFiltered(SimMeasure(8,k)).Regions,2)
@@ -173,7 +173,7 @@ if exist('Candidate','var') == 1
 					StabilityRegions.Regions(tmpRgnNo).ClusterNo = PoStaRgns.Regions(k).ClusterNo;
 					tmpRgnNo = tmpRgnNo+1;
 				end
-				StabilityRegions.RegionNums = tmpRgnNo-1;	% the number of stable regions
+				StabilityRegions.RegionNums = tmpRgnNo-1;	% the number of all stable regions
 			end
 		end
 	end
