@@ -22,7 +22,7 @@
 % 		b) In the root directory, the resulting "Stat.mat" file includes the average values of Precision, Recall and F-measure 
 %		   for each model. 
 %
-%
+% 
 % Copyright (C) 2016 Jing Lou
 %
 % The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
@@ -67,7 +67,7 @@ for datano = 1:length(Datasets)
 			% detected targets
 			targets = regionprops(M,'BoundingBox');
 			
-			% compute Precision, Recall and F-measure
+			% compute Precision, Recall
 			if ~isempty(GT)
 				if isempty(targets)
 					PRF(imgno,1) = 0;					% Precision
@@ -82,7 +82,7 @@ for datano = 1:length(Datasets)
 				PRF(imgno,2) = isempty(targets);		% Recall
 			end
 			
-			% F-measure
+			% compute F-measure
 			if PRF(imgno,1)~=0 || PRF(imgno,2)~=0
 				PRF(imgno,3) = 2*PRF(imgno,1)*PRF(imgno,2)/(PRF(imgno,1)+PRF(imgno,2));
 			else
@@ -101,7 +101,7 @@ end
 
 
 %% Statistical comparison on each dataset
-Stat{1,1} = 'Models';
+Stat{1,1} = 'Model';
 Stat{1,2} = 'Dataset';
 Stat{1,3} = 'Precision';
 Stat{1,4} = 'Recall';
