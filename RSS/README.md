@@ -1,4 +1,4 @@
-# RSS
+## RSS
 
 This code implements the RSS small target detection model in the following paper:
 
@@ -11,7 +11,7 @@ Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
 
-## Notes
+### Notes
 
  1. The example usage of this code is demonstrated in:
 	```matlab
