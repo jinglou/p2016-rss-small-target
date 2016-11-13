@@ -55,7 +55,7 @@ for p = y1e:y1
 	rgb(p, x1e:x2e, 3) = color(3);
 end
 
-% down
+% bottom
 for p = y2:y2e
 	rgb(p, x1e:x2e, 1) = color(1);
 	rgb(p, x1e:x2e, 2) = color(2);
