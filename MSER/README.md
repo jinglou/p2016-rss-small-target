@@ -12,13 +12,13 @@ The usage of this code is restricted for non-profit research usage only and usin
 
 ## Notes
 
- 1. The algorithm utilizes the VLFeat open source library:
+ 1. This algorithm utilizes the VLFeat open source library:
 
 	Vedaldi A, Fulkerson B (2008) VLFeat: An open and portable library of computer vision algorithms, version 0.9.19. [http://www.vlfeat.org/](http://www.vlfeat.org/)
 
- 2. The example usage of the code is demonstrated in 
+ 2. The example usage of this code is demonstrated in:
 	```matlab
 	>>MSER_DEMO
 	```
 
- 3. In each dataset folder, the resulting folder `MSER` includes MAT and PNG files. For each input color image, the resulting MAT file is a structure array `MSERs`. Each structure element includes two specified properties of a detected small target, i.e. Pixel List and Bounding Box.
+ 3. In each dataset folder, the resulting folder `MSER` contains MAT and PNG files. For each input color image, the resulting MAT file is a structure array "MSERs". Each structure element includes two specified properties of a detected small target: Pixel List and Bounding Box.
