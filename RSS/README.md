@@ -18,7 +18,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 		>>DEMO
 	```
 
- 2. There are three resulting subfolders in each dataset folder:
+ 2. This code reads the input color image from the subfolder `Image` in each dataset folder, and generates three resulting subfolders:
 	 1. `StaMaps`  stability maps
 	 2. `SalMaps`  saliency maps
 	 3. `RSS`  detection results, including .mat and .png
