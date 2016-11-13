@@ -1,6 +1,5 @@
 <center>
-<img src="https://github.com/jinglou/p2016-rss-small-target/blob/master/figs/fig1.png" width="70%"/>
-Framework of the proposed RSS model
+<img src="https://github.com/jinglou/p2016-rss-small-target/blob/master/figs/fig1.png" width="90%"/>
 </center>
 
 ## Paper
