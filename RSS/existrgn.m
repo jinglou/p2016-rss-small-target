@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [hasRgn,bw] = existrgn(gray,threshold)
-%EXISTRGN converts a gray-scale image GRAY to a binary image BW by using THRESHOLD, 
+%EXISTRGN converts a gray-scale image GRAY to a binary image BW by exploiting THRESHOLD, 
 % and checks whether BW contains foreground regions.
 
 bw = im2bw(gray,threshold);
