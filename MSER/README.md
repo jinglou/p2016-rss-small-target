@@ -1,4 +1,4 @@
-# MSER
+## MSER
 This code implements the MSER small target detection algorithm in the following paper:
 
 **Jing Lou**, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," ***Multimedia Tools and Applications***, pp. 1-18, 2016. [doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7)
@@ -10,7 +10,7 @@ Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
 
-## Notes
+### Notes
 
  1. This algorithm utilizes the VLFeat open source library:
 
