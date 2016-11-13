@@ -12,7 +12,7 @@
 function [ClusterRgns, ClusterNo] = cluster(Regions, ClusterNo)
 %CLUSTER calls the function BELONG to partition REGIONS into several groups
 % by taking account of their spatial relationships, and labels the
-% corresponding CLUSTER NOs.
+% corresponding CLUSTER IDs.
 
 ClusterRgns = Regions;
 startInd = 1;
