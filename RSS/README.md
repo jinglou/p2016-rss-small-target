@@ -18,13 +18,13 @@ The usage of this code is restricted for non-profit research usage only and usin
 		>>DEMO
 	```
 
- 2. There are three resulting folders in each dataset folder:
+ 2. There are three resulting subfolders in each dataset folder:
 	 1. `StaMaps`  stability maps
 	 2. `SalMaps`  saliency maps
 	 3. `RSS`  detection results, including .mat and .png
 
  3. For each input color image, the resulting MAT file is a structure array "Targets" with the following fields:
-	 1. `RegionNums`  the number of detected small targets
+	 1. `RegionNums`  the number of all detected small targets
 	 2. `Regions`  a structure array with the regional properties of all detected small targets
 		 1. `ClusterNo`  the cluster ID of the target
 		 2. `Props`  three regional properties of the target: Boundary, Pixel List, and Bounding Box
