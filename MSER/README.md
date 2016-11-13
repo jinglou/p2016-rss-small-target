@@ -21,4 +21,4 @@ The usage of this code is restricted for non-profit research usage only and usin
 	>>MSER_DEMO
 	```
 
- 3. In each dataset folder, the resulting folder `MSER` includes MAT and PNG files. For each input color image, the resulting MAT file is a structure array `MSERs`. Each structure element includes two specified properties of a detected small target, i.e. Pixel List and Bounding Box.
+ 3. In each dataset folder, the resulting folder `MSER` includes MAT and PNG files. For each input color image, the resulting MAT file is a structure array **`MSERs`**. Each structure element includes two specified properties of a detected small target, i.e. Pixel List and Bounding Box.
