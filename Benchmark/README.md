@@ -14,10 +14,10 @@ The usage of this data and code is restricted for non-profit research usage only
 ## Notes
 
  1. This benchmark database contains three datasets (totally 1,093 color images). Each dataset folder includes the following subfolders:
-	 1. `Image`  input color images
+	 1. `Image`  input color image
 	 2. `GT`  ground truth
 	 3. `MSER` `RSS`  two example models for reference
 
- 2. This benchmark database provides the pixel-wise ground truth for each input image. In `G`, each MAT file contains four properties of the ground truth target: Area, Boundary, Bounding Box, and Pixel List.
+ 2. This benchmark database provides the pixel-wise ground truth for each input image. In `GT`, each MAT file contains four properties of the ground truth target: Area, Boundary, Bounding Box, and Pixel List.
 
- 3. You can use the MATLAB script `Evaluation.m` to evaluate your detection results. Please read the help text in the script for more details.
+ 3. You can use the MATLAB script *Evaluation.m* to evaluate your detection results. Please read the help text in the script for more details.
