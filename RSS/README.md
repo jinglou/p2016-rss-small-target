@@ -19,10 +19,9 @@ The usage of this code is restricted for non-profit research usage only and usin
 	```
 
  2. There are three resulting folders in each dataset folder:
-	 1. | `aaa`        | bbb           |
-	 1. `StaMaps`		stability maps
-	 2. `SalMaps`		saliency maps
-	 3. `RSS`			detection results, including .mat and .png
+	 1. `StaMaps`    stability maps
+	 2. `SalMaps`    saliency maps
+	 3. `RSS`        detection results, including .mat and .png
 
  3. For each input color image, the resulting MAT file is a structure array "Targets" with the following fields:
 	 1. `RegionNums`	the number of detected small targets
