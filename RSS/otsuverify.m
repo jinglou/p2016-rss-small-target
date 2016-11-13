@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function PoStaRgns = otsuverify(gray, param, PoStaRgns, region, ClusterNo)
-%OTSUVERITY computes the Otsu's thresholding value of the subimage in a
+%OTSUVERIFY computes the Otsu's thresholding value of the subimage in a
 % gray-scale image GRAY. The subimage is extracted from GRAY by exploiting
 % the bounding box of the maximally stable region REGION. If REGION
 % satisfies the constraint of area variation, it is added to POSTARNGS with its properties.
