@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function SalMap = RSS_Saliency(img, param)
-%RSS_SALIENCY generates the saliency map SALMAP of a color image IMG by exploiting the parameter PARAM. 
+%RSS_SALIENCY generates the saliency map SALMAP for a color image IMG by using the parameter PARAM. 
 
 lab = rgb2lab(img);
 [height,width,~] = size(img);
