@@ -1,11 +1,11 @@
 # MSER
 This code implements the MSER small target detection algorithm in the following paper:
 
-**Jing Lou**, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," ***Multimedia Tools and Applications***, pp. 1-18, 2016. <a href="http://link.springer.com/article/10.1007/s11042-016-4025-7" target="_blank">doi:10.1007/s11042-016-4025-7</a>
+**Jing Lou**, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," ***Multimedia Tools and Applications***, pp. 1-18, 2016. [doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7)
 
-Project page: <a href="http://www.loujing.com/rss-small-target/" target="_blank">http://www.loujing.com/rss-small-target/</a>
+Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
 
-Copyright (C) 2016 <a href="http://www.loujing.com" target="_blank">Jing Lou</a>
+Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 
 The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
