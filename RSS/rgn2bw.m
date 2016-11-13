@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function bw = rgn2bw(Rgns,height,width)
-%RGN2bw converts the regions RGNS to a binary image BW.
+%RGN2BW converts the regions RGNS to a binary image BW.
 
 bw = false(height,width);
 
