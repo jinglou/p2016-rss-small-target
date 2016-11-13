@@ -13,7 +13,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 
 ## Notes
 
- 1. The example usage of the code is demonstrated in:
+ 1. The example usage of this code is demonstrated in:
 	```matlab
 		>>DEMO
 	```
