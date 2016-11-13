@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [isContain,idx] = contain(region1,region2)
-%CONTAIN checks whether REGION1 is enclosed in REGION2 or not by using
+%CONTAIN checks whether REGION1 is enclosed in REGION2 or not by exploiting
 % their bounding boxes, and returns the corresponding ID (1 or 2) of the bigger one.
 
 isContain = false;
