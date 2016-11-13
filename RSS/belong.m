@@ -11,7 +11,7 @@
 
 function isSameCluster = belong(region1,region2)
 %BELONG checks whether the regions REGION1 and REGION2 are belonged to the
-% same cluster based on the center distance.
+% same cluster based on the center distance of them.
 
 isSameCluster = false;
 
