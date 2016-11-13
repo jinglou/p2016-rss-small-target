@@ -12,19 +12,19 @@
 % ------------------------------------------------------------------------------------------------------
 %
 % Notes:
-%	1. To use this code for evaluation, the pixel-level binary images (PNG format) should be provided. 
-% 	You can create a new subfolder in each dataset folder and put your detection results in your subfolder, 
-% 	then add your model name to the cell "Models" of this code.
-% 	Two example subfolders ([MSER] and [RSS]) are provided in the dataset folders for reference.
-% 
-% 	2. To compute the Precision score for each image, the number of all detected targets should be provided. 
-% 	This code use the "regionprops" function of Image Processing Toolbox to automatically calculate it from the binary image.
-% 
-% 	3. This code generates the following evaluation results:
-% 		a) In each dataset folder, the resulting file "PRF_XXXX.mat" contains the values of Precision, Recall and F-measure 
-%		   for each image.
-% 		b) In the root directory, the resulting file "Stat.mat" includes the average values of Precision, Recall and F-measure 
-%		   for each model. 
+%   1. To use this code for evaluation, the pixel-level binary images (PNG format) should be provided. 
+%   You can create a new subfolder in each dataset folder and put your detection results in your subfolder, 
+%   then add your model name to the cell "Models" of this code.
+%   Two example subfolders ([MSER] and [RSS]) are provided in the dataset folders for reference.
+%
+%   2. To compute the Precision score for each image, the number of all detected targets should be provided. 
+%   This code use the "regionprops" function of Image Processing Toolbox to automatically calculate it from the binary image.
+%
+%   3. This code generates the following evaluation results:
+%      a) In each dataset folder, the resulting file "PRF_XXXX.mat" contains the values of Precision, Recall and F-measure 
+%         for each image.
+%      b) In the root directory, the resulting file "Stat.mat" includes the average values of Precision, Recall and F-measure 
+%         for each model. 
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
