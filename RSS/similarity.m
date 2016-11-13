@@ -15,8 +15,8 @@ function SimMeasure = similarity(FillRate,AspectRatio)
 %   Return
 %   ---------
 %   SimMeasure:
-%		row 1 is the value of most similar Fill Rate, and rows 2,3 are the corresponding Cluster NOs
-%		row 4 is the value of most similar Aspect Ratio, and rows 5,6 are the corresponding Cluster NOs
+%		row 1 is the value of most similar Fill Rate, and rows 2,3 are the corresponding Cluster IDs
+%		row 4 is the value of most similar Aspect Ratio, and rows 5,6 are the corresponding Cluster IDs
 %		row 7 is the minimal value of rows 2,3,5,6
 %		row 8 is the maximum value of rows 2,3,5,6
 
