@@ -16,7 +16,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 
 	Vedaldi A, Fulkerson B (2008) VLFeat: An open and portable library of computer vision algorithms, version 0.9.19. [http://www.vlfeat.org/](http://www.vlfeat.org/)
 
- 2. The example usage of this code is demonstrated in:
+ 2. Please unzip `vlfeat-0.9.19.zip` and run the algorithm by the command:
 	```matlab
 		MSER_DEMO
 	```
