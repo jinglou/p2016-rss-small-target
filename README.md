@@ -7,4 +7,6 @@
 
 Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
 
+These resources are also available at my [Baidu Cloud (百度网盘)](http://pan.baidu.com/s/1kUByzrx#list/path=%2Fresearch%2Fp2016-rss-small-target&parentPath=%2F).
+
 Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
