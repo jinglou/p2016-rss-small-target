@@ -7,6 +7,7 @@ The video demos of the RSS model proposed in the following paper:
 
 Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 
+
 ### Notes
 
  - It should be noted that although each resulting demo is shown in the form of video, all video files are created from the sequential frames in which each frame is obtained by applying the proposed RSS model to the individual image.
