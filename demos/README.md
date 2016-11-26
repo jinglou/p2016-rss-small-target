@@ -12,4 +12,4 @@ Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 
  - It should be noted that although each resulting demo is shown in the form of video, all video files are created from the sequential frames in which each frame is obtained by applying the proposed RSS model to the individual image.
 
- - (*upper left*) – input;<br/>(*upper right*) – result of the proposed RSS model;<br/>(*lower left*) – stability map;<br/>(*lower right*) – saliency map.
+ - (*upper left*) – input;<br/>(*upper right*) – result of the RSS model;<br/>(*lower left*) – stability map;<br/>(*lower right*) – saliency map.
