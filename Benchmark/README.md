@@ -2,9 +2,10 @@
 
 This benchmark database is used for small target detection in the following paper: 
 
-**Jing Lou**, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," ***Multimedia Tools and Applications***, pp. 1-18, 2016. [doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7)
+ - **Jing Lou**, Wei Zhu, Huan Wang, Mingwu Ren, "Small Target Detection Combining Regional Stability and Saliency in a Color Image," ***Multimedia Tools and Applications***, pp. 1-18, 2016. [doi:10.1007/s11042-016-4025-7](http://link.springer.com/article/10.1007/s11042-016-4025-7)
 
-Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
+ - Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
+ - You can directly download the zipped file of the database: [Benchmark.zip](https://raw.githubusercontent.com/jinglou/p2016-rss-small-target/master/Benchmark.zip).
 
 Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
 
