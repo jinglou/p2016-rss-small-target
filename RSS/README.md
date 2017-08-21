@@ -7,7 +7,7 @@ This code implements the RSS small target detection model in the following paper
  - Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
  - You can directly download the zipped file of the MATLAB code and data: [RSS.zip](https://raw.githubusercontent.com/jinglou/p2016-rss-small-target/master/RSS.zip).
 
-Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
+Copyright (C) 2016 [Jing Lou (楼竞)](http://www.loujing.com)
 
 The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
