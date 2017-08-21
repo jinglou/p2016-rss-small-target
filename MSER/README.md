@@ -6,7 +6,7 @@ This code implements the MSER small target detection algorithm in the following 
  - Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
  - You can directly download the zipped file of the MATLAB code: [MSER.zip](https://raw.githubusercontent.com/jinglou/p2016-rss-small-target/master/MSER.zip).
 
-Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
+Copyright (C) 2016 [Jing Lou (楼竞)](http://www.loujing.com)
 
 The usage of this code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
