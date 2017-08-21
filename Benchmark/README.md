@@ -7,7 +7,7 @@ This benchmark database is used for small target detection in the following pape
  - Project page: [http://www.loujing.com/rss-small-target/](http://www.loujing.com/rss-small-target/)
  - You can directly download the zipped file of the database: [Benchmark.zip](https://raw.githubusercontent.com/jinglou/p2016-rss-small-target/master/Benchmark.zip).
 
-Copyright (C) 2016 [Jing Lou](http://www.loujing.com)
+Copyright (C) 2016 [Jing Lou (楼竞)](http://www.loujing.com)
 
 The usage of this data and code is restricted for non-profit research usage only and using of the code is at the user's risk.
 
