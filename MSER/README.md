@@ -19,7 +19,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 
  2. Please unzip `vlfeat-0.9.19.zip` and run the algorithm by the command:
 	```matlab
-		>> MSER_DEMO
+    >> MSER_DEMO
 	```
 
  3. In each dataset folder, the resulting subfolder `MSER` contains MAT and PNG files. For each input color image, the resulting MAT file is a structure array "MSERs". Each structure element in "MSERs" includes two specified properties of a detected small target: Pixel List and Bounding Box.
