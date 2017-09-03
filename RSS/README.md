@@ -16,7 +16,7 @@ The usage of this code is restricted for non-profit research usage only and usin
 
  1. The example usage of this code is demonstrated in:
 	```matlab
-		>> DEMO
+    >> DEMO
 	```
 
  2. This code reads the input color image from the subfolder `Image` in each dataset folder, and generates three resulting subfolders:
