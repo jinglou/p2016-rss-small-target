@@ -27,5 +27,5 @@ The usage of this code is restricted for non-profit research usage only and usin
  3. For each input color image, the resulting MAT file is a structure array "Targets" with the following fields:
 	 1. `RegionNums`  the number of the detected small targets
 	 2. `Regions`  a structure array with the regional properties of the detected small targets
-		 1. `ClusterNo`  the cluster ID of the target
-		 2. `Props`  three regional properties of the target: Boundary, Pixel List, and Bounding Box
+		 1. `ClusterNo`  the cluster ID of a target
+		 2. `Props`  three regional properties of a target: Boundary, Pixel List, and Bounding Box
