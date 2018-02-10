@@ -2,7 +2,6 @@
 <div align="center"><strong>Fig. 1</strong>&nbsp;&nbsp;Framework of the proposed RSS model</div>
 
 <br/>
-<br/>
 
 
 ## Paper
