@@ -74,7 +74,7 @@ for datano = 1:length(Datasets)
 					tmp = double(length(find(G.*M==1))>=size(GT.PixelList,1)*0.5);
 					PRF(imgno,1) = tmp/length(targets);	% Precision
 					PRF(imgno,2) = tmp/length(GT);		% Recall
-				end;
+				end
 			else
 				PRF(imgno,1) = isempty(targets);		% Precision
 				PRF(imgno,2) = isempty(targets);		% Recall
