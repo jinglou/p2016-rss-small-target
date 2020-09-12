@@ -1,4 +1,4 @@
-<div align="center"><img class="aligncenter" src="http://www.loujing.com/wp-content/uploads/research/p2016-rss-small-target/figs/fig1.png" alt="Small Target Detection Combining Regional Stability and Saliency in a Color Image - Framework" title="Small Target Detection Combining Regional Stability and Saliency in a Color Image - Framework" width="100%"/></div>
+<div align="center"><img class="aligncenter" src="https://github.com/jinglou/p2016-rss-small-target/blob/master/figs/fig1.png" alt="Small Target Detection Combining Regional Stability and Saliency in a Color Image - Framework" title="Small Target Detection Combining Regional Stability and Saliency in a Color Image - Framework" width="100%"/></div>
 <div align="center"><strong>Fig. 1</strong>&nbsp;&nbsp;Framework of the proposed RSS model</div>
 
 <br/>
